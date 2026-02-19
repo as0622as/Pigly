@@ -6,17 +6,13 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class UpdateTargetWeightRequest extends FormRequest
 {
-    /**
-     * 認可
-     */
+
     public function authorize(): bool
     {
         return true;
     }
 
-    /**
-     * バリデーションルール
-     */
+
     public function rules(): array
     {
         return [
@@ -29,9 +25,6 @@ class UpdateTargetWeightRequest extends FormRequest
         ];
     }
 
-    /**
-     * エラーメッセージ
-     */
     public function messages(): array
     {
         return [

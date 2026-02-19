@@ -46,3 +46,4 @@ php artisan storage:link
 
 ## ER図
 
+![ER図](docs/Pigly.drawio.png)
